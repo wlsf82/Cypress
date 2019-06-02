@@ -23,6 +23,3 @@
 //
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
-Cypress.Commands.add("passoUm", () => {
-    cy.get('a[href="/cadastro/etapa-1"]').click()
-})
