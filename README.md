@@ -1,48 +1,24 @@
-## Como organizar a casa? 🤔
-***
+# Cypress POC
 
-Cria uma pasta!
-```sh
-$ mkdir <folder>
-$ cd <folder>
-```
+## Pré-condições
 
+NodeJS instalado no ambiente local (v8+).
 
-Adiciona o *.gitignore*
-```sh
-$ touch .gitignore
-```
+## Instalação
 
-Dentro do *.gitignore* adiciona:
-```
-.DS_Store
-node_modules
-videos
-tags
-```
+Execute `npm i` para instalar as dependências de desenvolvimento
 
-Iniciando o projeto!
-```sh
-$ npm init
-```
-> Caso queira mudar alguma configuração padrão mude, caso contrario é só meter o dedo no *enter*.
+## Executando os testes
 
-Instalando o *cypress*.
-```sh
-$ npm i cypress -D
-```
+Execute `npm run cypress` para executar o Cypress em modo interativo e então clique no botão *Run all specs*.
 
-Testando para ver se o *cypress* esta supimpa.
-```sh
-$ cypress open 
-```
+Execute `npm t` para executar os testes em modo *headless*.
 
-***Pronto para brincar! 🚀***
+Execute `npm run headed` para executar os testes em modo *headed*.
 
-***
+Execute `npm 
 
-## Pros e Contras do *cypress*
-***
+## Pros e Contras do *Cypress*
 
 **Pros**
 * Ótima documentação.
